@@ -1,0 +1,26 @@
+{
+  "name": "kairostechoffical/seo",
+  "description": "SEO module for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "KairosTechOffical",
+      "email": "kairostheopportunemoment@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "KairosTechOffical\\Seo\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "KairosTechOffical\\Seo\\SeoServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
